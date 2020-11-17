@@ -1,0 +1,23 @@
+{
+  "name": "03.portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.2",
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "next": "9.5.3",
+    "next-routes": "^1.4.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-typed": "^1.2.0",
+    "reactstrap": "^8.6.0",
+    "sass": "^1.26.11"
+  }
+}
